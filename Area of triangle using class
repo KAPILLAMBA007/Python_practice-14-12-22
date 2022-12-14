@@ -1,0 +1,13 @@
+class circle():
+    def __init__(self,radius,pi):
+        self.radius=radius
+        self.pi=pi
+    def area(self):
+       return self.radius**2 *self.pi
+    def perimeter(self):
+        return self.radius*2*self.pi
+radius=int(input("Enter radius of circle: "))
+pi=22/7
+obj=circle(radius,pi)
+print("Area of circle:",obj.area())
+print("Perimeter of circle: ",obj.perimeter())
