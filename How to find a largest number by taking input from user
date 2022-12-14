@@ -1,0 +1,2 @@
+num1,num2,um3,num4,num5=input(f"enter numbers seperated by comas:").split(",")
+print(max(num1,num2,um3,num4,num5))
